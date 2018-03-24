@@ -8,6 +8,15 @@
 
 import Foundation
 
-struct UserDetailState {
+enum UserDetailState {
+    case none
+    case loading(User)
+    case loaded(UserDetail)
     
+    static let initial = UserDetailState.none
 }
+
+//func reduce(_ state: UserDetailState, with action: Action) -> UserDetailState {
+//   //ToDo
+//}
+
