@@ -1,3 +1,3 @@
-# GithubUsers-Redux
+# Redux-Example 
 
-Implemenation of Redux in Swift.
+Sample App that uses Redux for fetching users from Github.
