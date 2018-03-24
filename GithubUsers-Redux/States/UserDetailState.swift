@@ -16,7 +16,9 @@ enum UserDetailState {
     static let initial = UserDetailState.none
 }
 
-//func reduce(_ state: UserDetailState, with action: Action) -> UserDetailState {
-//   //ToDo
-//}
+func reduce(_ state: UserDetailState, with action: Action) -> UserDetailState {
+    switch action {
+    default: return state
+    }
+}
 

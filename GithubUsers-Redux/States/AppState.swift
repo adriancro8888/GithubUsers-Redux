@@ -9,12 +9,14 @@
 import Foundation
 
 struct AppState {
-     let userList: UserListState
-    
-    static let initial = AppState(userList: UserListState.initial)
+    let userList: UserListState
+    let selectedUser: UserDetailState
+    static let initial = AppState(userList: UserListState.initial, selectedUser: UserDetailState.initial)
 }
 
 /// Reduce for composit states is trivial
 func reduce(_ state: AppState, with action: Action) -> AppState {
-    return AppState(userList: reduce(state.userList, with: action))
+    return AppState(
+        userList: reduce(state.userList, with: action),
+        selectedUser: reduce(state.selectedUser, with: action))
 }
