@@ -17,38 +17,6 @@
             endingLineNumber = "61"
             landmarkName = "userProp(from:)"
             landmarkType = "9">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GithubUsers_Redux.UserListViewController.connect(to: GithubUsers_Redux.Store&lt;GithubUsers_Redux.AppState&gt;) -&gt; ()"
-                  moduleName = "GithubUsers-Redux"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shabirjan/Desktop/GithubUsers-Redux/GithubUsers-Redux/Views/UserList/UserListViewController.swift"
-                  timestampString = "543933190.0104181"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71"
-                  offsetFromSymbolStart = "21">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (GithubUsers_Redux.AppState) -&gt; () in GithubUsers_Redux.UserListViewController.connect(to: GithubUsers_Redux.Store&lt;GithubUsers_Redux.AppState&gt;) -&gt; ()"
-                  moduleName = "GithubUsers-Redux"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shabirjan/Desktop/GithubUsers-Redux/GithubUsers-Redux/Views/UserList/UserListViewController.swift"
-                  timestampString = "543933190.0132951"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "561">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -65,38 +33,6 @@
             endingLineNumber = "71"
             landmarkName = "connect(to:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GithubUsers_Redux.UserListViewController.connect(to: GithubUsers_Redux.Store&lt;GithubUsers_Redux.AppState&gt;) -&gt; ()"
-                  moduleName = "GithubUsers-Redux"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shabirjan/Desktop/GithubUsers-Redux/GithubUsers-Redux/Views/UserList/UserListViewController.swift"
-                  timestampString = "543933190.024086"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71"
-                  offsetFromSymbolStart = "21">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (GithubUsers_Redux.AppState) -&gt; () in GithubUsers_Redux.UserListViewController.connect(to: GithubUsers_Redux.Store&lt;GithubUsers_Redux.AppState&gt;) -&gt; ()"
-                  moduleName = "GithubUsers-Redux"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shabirjan/Desktop/GithubUsers-Redux/GithubUsers-Redux/Views/UserList/UserListViewController.swift"
-                  timestampString = "543933190.026475"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "561">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
