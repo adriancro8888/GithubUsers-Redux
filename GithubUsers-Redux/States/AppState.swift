@@ -10,8 +10,8 @@ import Foundation
 
 struct AppState {
     let userList: UserListState
-    let selectedUser: UserDetailState
-    static let initial = AppState(userList: UserListState.initial, selectedUser: UserDetailState.initial)
+    let selectedUser: SelectedUserDetailState
+    static let initial = AppState(userList: UserListState.initial, selectedUser: SelectedUserDetailState.initial)
 }
 
 /// Reduce for composit states is trivial

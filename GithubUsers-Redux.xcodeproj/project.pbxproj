@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F4421DF206BA86D00406BE5 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421DE206BA86D00406BE5 /* Command.swift */; };
+		9F4421E1206BA88400406BE5 /* ResultFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421E0206BA88400406BE5 /* ResultFunction.swift */; };
+		9F4421E3206BA8A900406BE5 /* FutureMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421E2206BA8A900406BE5 /* FutureMap.swift */; };
+		9F4421EA206BAA3E00406BE5 /* LoadUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421E9206BAA3E00406BE5 /* LoadUsers.swift */; };
+		9F4421EC206BAC4200406BE5 /* DidLoadUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421EB206BAC4200406BE5 /* DidLoadUsers.swift */; };
+		9F4421EE206BACC900406BE5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421ED206BACC900406BE5 /* NetworkService.swift */; };
+		9F4421F1206BB26700406BE5 /* DidSelectUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421F0206BB26700406BE5 /* DidSelectUser.swift */; };
+		9F4421F3206BC3F100406BE5 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421F2206BC3F100406BE5 /* UserDetailViewController.swift */; };
+		9F4421F5206BCF5A00406BE5 /* SelectUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421F4206BCF5A00406BE5 /* SelectUser.swift */; };
+		9F4421F7206BD0AE00406BE5 /* DidLoadUserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421F6206BD0AE00406BE5 /* DidLoadUserDetail.swift */; };
 		9F6C190320666FAE00D988EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C190220666FAE00D988EF /* AppDelegate.swift */; };
 		9F6C190520666FAE00D988EF /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C190420666FAE00D988EF /* UserListViewController.swift */; };
 		9F6C190820666FAE00D988EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C190620666FAE00D988EF /* Main.storyboard */; };
@@ -16,10 +26,13 @@
 		9F6C192320666FAF00D988EF /* GithubUsers_ReduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C192220666FAF00D988EF /* GithubUsers_ReduxUITests.swift */; };
 		9F6C193620669D4A00D988EF /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C193520669D4A00D988EF /* AppState.swift */; };
 		9F6C193820669D8D00D988EF /* UserListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C193720669D8D00D988EF /* UserListState.swift */; };
-		9F6C193A20669DA800D988EF /* UserDetailState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C193920669DA800D988EF /* UserDetailState.swift */; };
+		9F6C193A20669DA800D988EF /* SelectedUserDetailState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C193920669DA800D988EF /* SelectedUserDetailState.swift */; };
 		9F6C193D20669ECA00D988EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C193C20669ECA00D988EF /* User.swift */; };
 		9F6C194020669F7900D988EF /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C193F20669F7900D988EF /* Action.swift */; };
 		9F6C19472066B86700D988EF /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C19462066B86700D988EF /* UserDetail.swift */; };
+		9F6C194A2067847900D988EF /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C19482067847800D988EF /* Dispatcher.swift */; };
+		9F6C194B2067847900D988EF /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C19492067847800D988EF /* Store.swift */; };
+		9F6C194E206785C700D988EF /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C194D206785C700D988EF /* Future.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +53,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F4421DE206BA86D00406BE5 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		9F4421E0206BA88400406BE5 /* ResultFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultFunction.swift; sourceTree = "<group>"; };
+		9F4421E2206BA8A900406BE5 /* FutureMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureMap.swift; sourceTree = "<group>"; };
+		9F4421E9206BAA3E00406BE5 /* LoadUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadUsers.swift; sourceTree = "<group>"; };
+		9F4421EB206BAC4200406BE5 /* DidLoadUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidLoadUsers.swift; sourceTree = "<group>"; };
+		9F4421ED206BACC900406BE5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9F4421F0206BB26700406BE5 /* DidSelectUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidSelectUser.swift; sourceTree = "<group>"; };
+		9F4421F2206BC3F100406BE5 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		9F4421F4206BCF5A00406BE5 /* SelectUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUser.swift; sourceTree = "<group>"; };
+		9F4421F6206BD0AE00406BE5 /* DidLoadUserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidLoadUserDetail.swift; sourceTree = "<group>"; };
 		9F6C18FF20666FAE00D988EF /* GithubUsers-Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GithubUsers-Redux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6C190220666FAE00D988EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F6C190420666FAE00D988EF /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
@@ -55,10 +78,13 @@
 		9F6C192420666FAF00D988EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F6C193520669D4A00D988EF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		9F6C193720669D8D00D988EF /* UserListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListState.swift; sourceTree = "<group>"; };
-		9F6C193920669DA800D988EF /* UserDetailState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailState.swift; sourceTree = "<group>"; };
+		9F6C193920669DA800D988EF /* SelectedUserDetailState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedUserDetailState.swift; sourceTree = "<group>"; };
 		9F6C193C20669ECA00D988EF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9F6C193F20669F7900D988EF /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		9F6C19462066B86700D988EF /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		9F6C19482067847800D988EF /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		9F6C19492067847800D988EF /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		9F6C194D206785C700D988EF /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +112,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F4421DD206BA84D00406BE5 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				9F4421DE206BA86D00406BE5 /* Command.swift */,
+				9F4421E0206BA88400406BE5 /* ResultFunction.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		9F4421E8206BAA3400406BE5 /* Action Creators */ = {
+			isa = PBXGroup;
+			children = (
+				9F4421E9206BAA3E00406BE5 /* LoadUsers.swift */,
+				9F4421F4206BCF5A00406BE5 /* SelectUser.swift */,
+			);
+			path = "Action Creators";
+			sourceTree = "<group>";
+		};
+		9F4421EF206BACCE00406BE5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9F4421ED206BACC900406BE5 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		9F6C18F620666FAE00D988EF = {
 			isa = PBXGroup;
 			children = (
@@ -109,12 +161,15 @@
 		9F6C190120666FAE00D988EF /* GithubUsers-Redux */ = {
 			isa = PBXGroup;
 			children = (
+				9F4421EF206BACCE00406BE5 /* Service */,
+				9F4421E8206BAA3400406BE5 /* Action Creators */,
+				9F4421DD206BA84D00406BE5 /* Command */,
+				9F6C194C206785BE00D988EF /* Future */,
 				9F6C19412066A0B400D988EF /* Store */,
 				9F6C193E20669F7000D988EF /* Actions */,
 				9F6C193B20669EAE00D988EF /* Models */,
 				9F6C193420669D2A00D988EF /* States */,
 				9F6C19332066708800D988EF /* App */,
-				9F6C19322066701900D988EF /* Services */,
 				9F6C193020666FB900D988EF /* Views */,
 				9F6C190620666FAE00D988EF /* Main.storyboard */,
 				9F6C190920666FAE00D988EF /* Assets.xcassets */,
@@ -145,24 +200,10 @@
 		9F6C193020666FB900D988EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9F6C193120666FE900D988EF /* UserList */,
+				9F6C190420666FAE00D988EF /* UserListViewController.swift */,
+				9F4421F2206BC3F100406BE5 /* UserDetailViewController.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		9F6C193120666FE900D988EF /* UserList */ = {
-			isa = PBXGroup;
-			children = (
-				9F6C190420666FAE00D988EF /* UserListViewController.swift */,
-			);
-			path = UserList;
-			sourceTree = "<group>";
-		};
-		9F6C19322066701900D988EF /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		9F6C19332066708800D988EF /* App */ = {
@@ -178,7 +219,7 @@
 			children = (
 				9F6C193520669D4A00D988EF /* AppState.swift */,
 				9F6C193720669D8D00D988EF /* UserListState.swift */,
-				9F6C193920669DA800D988EF /* UserDetailState.swift */,
+				9F6C193920669DA800D988EF /* SelectedUserDetailState.swift */,
 			);
 			path = States;
 			sourceTree = "<group>";
@@ -196,6 +237,9 @@
 			isa = PBXGroup;
 			children = (
 				9F6C193F20669F7900D988EF /* Action.swift */,
+				9F4421EB206BAC4200406BE5 /* DidLoadUsers.swift */,
+				9F4421F0206BB26700406BE5 /* DidSelectUser.swift */,
+				9F4421F6206BD0AE00406BE5 /* DidLoadUserDetail.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -203,8 +247,19 @@
 		9F6C19412066A0B400D988EF /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				9F6C19482067847800D988EF /* Dispatcher.swift */,
+				9F6C19492067847800D988EF /* Store.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		9F6C194C206785BE00D988EF /* Future */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C194D206785C700D988EF /* Future.swift */,
+				9F4421E2206BA8A900406BE5 /* FutureMap.swift */,
+			);
+			path = Future;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,14 +396,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4421EC206BAC4200406BE5 /* DidLoadUsers.swift in Sources */,
 				9F6C193620669D4A00D988EF /* AppState.swift in Sources */,
 				9F6C190520666FAE00D988EF /* UserListViewController.swift in Sources */,
+				9F6C194A2067847900D988EF /* Dispatcher.swift in Sources */,
 				9F6C193D20669ECA00D988EF /* User.swift in Sources */,
+				9F4421EE206BACC900406BE5 /* NetworkService.swift in Sources */,
 				9F6C193820669D8D00D988EF /* UserListState.swift in Sources */,
+				9F6C194B2067847900D988EF /* Store.swift in Sources */,
 				9F6C194020669F7900D988EF /* Action.swift in Sources */,
 				9F6C19472066B86700D988EF /* UserDetail.swift in Sources */,
+				9F4421F1206BB26700406BE5 /* DidSelectUser.swift in Sources */,
+				9F6C194E206785C700D988EF /* Future.swift in Sources */,
+				9F4421E3206BA8A900406BE5 /* FutureMap.swift in Sources */,
+				9F4421E1206BA88400406BE5 /* ResultFunction.swift in Sources */,
+				9F4421F5206BCF5A00406BE5 /* SelectUser.swift in Sources */,
+				9F4421EA206BAA3E00406BE5 /* LoadUsers.swift in Sources */,
 				9F6C190320666FAE00D988EF /* AppDelegate.swift in Sources */,
-				9F6C193A20669DA800D988EF /* UserDetailState.swift in Sources */,
+				9F4421F3206BC3F100406BE5 /* UserDetailViewController.swift in Sources */,
+				9F6C193A20669DA800D988EF /* SelectedUserDetailState.swift in Sources */,
+				9F4421DF206BA86D00406BE5 /* Command.swift in Sources */,
+				9F4421F7206BD0AE00406BE5 /* DidLoadUserDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,10 @@ struct UserListState {
 }
 
 func reduce(_ state: UserListState, with action: Action) -> UserListState {
-    //ToDo
-    return UserListState(users: [])
+    switch action {
+    case let action as DidLoadUsers:
+        return UserListState(users: state.users + action.users)
+    default:
+        return state
+    }
 }
