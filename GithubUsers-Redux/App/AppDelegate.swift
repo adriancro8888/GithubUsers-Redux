@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        
+        let store = Store(state: AppState.initial, reducer: reduce)
+        let navigation = window?.rootViewController as! UINavigationController
+        let vc = navigation.viewControllers.first as! UserListViewController
+        /// Connect initial controller to application store.
+        vc.connect(to: store)
+        let url = URL(string: "https://api.github.com/users")!
+        store.dispatch(future: loadUsers(url: url))
         return true
     }
     
