@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F031ABD206D18B7000C578B /* UserListStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F031ABC206D18B7000C578B /* UserListStateTest.swift */; };
 		9F4421DF206BA86D00406BE5 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421DE206BA86D00406BE5 /* Command.swift */; };
 		9F4421E1206BA88400406BE5 /* ResultFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421E0206BA88400406BE5 /* ResultFunction.swift */; };
 		9F4421E3206BA8A900406BE5 /* FutureMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421E2206BA8A900406BE5 /* FutureMap.swift */; };
@@ -22,7 +23,6 @@
 		9F6C190820666FAE00D988EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C190620666FAE00D988EF /* Main.storyboard */; };
 		9F6C190A20666FAE00D988EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C190920666FAE00D988EF /* Assets.xcassets */; };
 		9F6C190D20666FAE00D988EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C190B20666FAE00D988EF /* LaunchScreen.storyboard */; };
-		9F6C191820666FAE00D988EF /* GithubUsers_ReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C191720666FAE00D988EF /* GithubUsers_ReduxTests.swift */; };
 		9F6C192320666FAF00D988EF /* GithubUsers_ReduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C192220666FAF00D988EF /* GithubUsers_ReduxUITests.swift */; };
 		9F6C193620669D4A00D988EF /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C193520669D4A00D988EF /* AppState.swift */; };
 		9F6C193820669D8D00D988EF /* UserListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C193720669D8D00D988EF /* UserListState.swift */; };
@@ -53,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F031ABC206D18B7000C578B /* UserListStateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListStateTest.swift; sourceTree = "<group>"; };
 		9F4421DE206BA86D00406BE5 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		9F4421E0206BA88400406BE5 /* ResultFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultFunction.swift; sourceTree = "<group>"; };
 		9F4421E2206BA8A900406BE5 /* FutureMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureMap.swift; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		9F6C190C20666FAE00D988EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6C190E20666FAE00D988EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F6C191320666FAE00D988EF /* GithubUsers-ReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GithubUsers-ReduxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F6C191720666FAE00D988EF /* GithubUsers_ReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsers_ReduxTests.swift; sourceTree = "<group>"; };
 		9F6C191920666FAE00D988EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F6C191E20666FAF00D988EF /* GithubUsers-ReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GithubUsers-ReduxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6C192220666FAF00D988EF /* GithubUsers_ReduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsers_ReduxUITests.swift; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 		9F6C191620666FAE00D988EF /* GithubUsers-ReduxTests */ = {
 			isa = PBXGroup;
 			children = (
-				9F6C191720666FAE00D988EF /* GithubUsers_ReduxTests.swift */,
 				9F6C191920666FAE00D988EF /* Info.plist */,
+				9F031ABC206D18B7000C578B /* UserListStateTest.swift */,
 			);
 			path = "GithubUsers-ReduxTests";
 			sourceTree = "<group>";
@@ -424,7 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6C191820666FAE00D988EF /* GithubUsers_ReduxTests.swift in Sources */,
+				9F031ABD206D18B7000C578B /* UserListStateTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
